@@ -9,7 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.5)
-    ffi (1.9.23)
+    ffi (1.12.2)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -68,12 +68,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.7.3)
-  jekyll-feed (~> 0.6)
+  jekyll
+  jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  minima (~> 2.0)
+  minima
   tzinfo-data
 
 BUNDLED WITH
