@@ -2,7 +2,7 @@
 layout: post
 title: "Why You Should Prefer OAuth Scope Validation Over Audience Validation"
 author: "Joel Braun"
-categories: journal
+categories: writing
 tags: [OAuth, Audiences, Scopes]
 ---
 

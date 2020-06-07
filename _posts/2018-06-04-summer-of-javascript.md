@@ -2,7 +2,7 @@
 layout: post
 title: "The Summer of JavaScript"
 author: "Joel Braun"
-categories: journal
+categories: writing
 tags: [Summer of JavaScript]
 image: "jsimg.png"
 ---

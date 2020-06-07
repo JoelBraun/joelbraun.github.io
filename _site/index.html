@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/syntax.css">
+  <link rel="stylesheet" href="/assets/css/tale.css">
   <!-- Use Atom -->
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joel Braun" />
   <!-- Use RSS-2.0 -->
@@ -61,24 +62,20 @@
 
 
 <body>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="/">
+        <h2 class="nav-title">Joel Braun</h2>
+      </a>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/writing/">Writing</a></li>
+      </ul>
+    </div>
+  </nav>
+  
 
   <div class="container">
-    <header class="masthead">
-  <h3 class="masthead-title">
-    <a href="/">Joel Braun</a>
-    <small class="masthead-subtitle"></small>
-    <div class="menu">
-  <nav class="menu-content">
-    
-      <a href="/menu/writing.html">Writing</a>
-    
-      <a href="/menu/about.html">About</a>
-    
-  </nav>
-</div>
-
-  </h3>
-</header>
 
 
     <div class="post-container">
@@ -86,15 +83,48 @@
     </div>
 
     <div class="post-container">
+      <header class="masthead">
+  <h3 class="masthead-title">
+    <div class="masthead-title-data">Hi, I'm Joel.</div>
+    <div>
+      <small class="masthead-subtitle">These are my stories, learnings, and musings from a life as software engineer.  </small>
+    </div>
+    <a class="masthead-subtitle-a" href="/about">More about me <i class="fa fa-angle-right"></i></a>
+  </h3>
+</header>
+  
+
+<ul class="posts">
+  
+
+    
+      <h3>2020</h3>
+    
+
+    <li itemscope>
+      <a href="/2020/05/29/a-more-definitive-guide-to-mobile-sso.html">A More Definitive Guide to Mobile SSO</a>
+      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> May 29 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    less than 1 minute read
+  
+
+
+
+</span></p>
+    </li>
+
+  
+
+    
       
-<div class="posts">
-  <h1>
-    <a href="/journal/validating-oauth-audiences-and-scopes.html">Why You Should Prefer OAuth Scope Validation Over Audience Validation</a>
-  </h1>
-  
-  <p>
-    I often receive the question of how OAuth token audience validation should work in environments where multiple OAuth clients are calling multiple resource services. Generally, the audience or aud claim in OAuth represents the application to which the OAuth token was issued. This can be handy as an additional layer of token validation for certain... <a href="/journal/validating-oauth-audiences-and-scopes.html">Read more</a>
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 09 May 2020 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+      
+      
+    
+
+    <li itemscope>
+      <a href="/2020/05/09/validating-oauth-audiences-and-scopes.html">Why You Should Prefer OAuth Scope Validation Over Audience Validation</a>
+      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> May 9 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
   
   
     1 minute read
@@ -102,24 +132,22 @@
 
 
 
-</span>
-  </p>
-</div>
+</span></p>
+    </li>
 
-<div class="posts">
-  <h1>
-    <a href="/journal/summer-of-javascript.html">The Summer of JavaScript</a>
-  </h1>
   
-  <div class="thumbnail-container">
-    <a href="/journal/summer-of-javascript.html"><img src="/assets/img/jsimg.png"></a>
-  </div>
-  
-  <p>
-    Day to day, I work on the modern Microsoft stack - .NET Core, MSSQL, Linux/Docker, and building out both cloud and security initiatives at my organization. I love my place on the backend side of things, and typically don’t stray far from that area.
 
-Ever so occasionally, it’s necessary to dip my toes into JS to finish some light frontend work. J... <a href="/journal/summer-of-javascript.html">Read more</a>
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 04 Jun 2018 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+    
+      
+      
+      
+        <h3>2018</h3>
+      
+    
+
+    <li itemscope>
+      <a href="/2018/06/04/summer-of-javascript.html">The Summer of JavaScript</a>
+      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> June 4 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
   
   
     1 minute read
@@ -127,21 +155,11 @@ Ever so occasionally, it’s necessary to dip my toes into JS to finish some lig
 
 
 
-</span>
-  </p>
-</div>
-
-
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="pagination-button">Older</span>
-  
+</span></p>
+    </li>
 
   
-    <span class="pagination-button">Newer</span>
-  
-</div>
+</ul>
 
     </div>
 
@@ -172,7 +190,7 @@ Ever so occasionally, it’s necessary to dip my toes into JS to finish some lig
     <a href="/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
   
 
-  <div class="post-date"><a href="/menu/about.html">Joel Braun |  by Joel Braun</a></div>
+  <div class="post-date"><a href="/menu/about.html"> © Joel Braun, 2020. All rights reserved.</a></div>
 </footer>
 
   </div>
